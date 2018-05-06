@@ -10,6 +10,8 @@ namespace ABSA_assessment
     {
         static void Main(string[] args)
         {
+            Robot factoryRobot = new Robot();
+            factoryRobot.GetMovements();
         }
     }
 }
